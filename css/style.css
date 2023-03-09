@@ -1,4 +1,7 @@
 
+img{
+    width: 250px;
+}
 table{
     border-collapse: collapse;
     min-width: 400px;
