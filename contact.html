@@ -8,13 +8,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="index.html">Acceuil</a>
-    <h2>formulaire de contact</h2>
-        <input type="text" placeholder="nom"> <br> <br>
-        <input type="text" placeholder="prenom"> <br> <br>
-        <input type="email" placeholder="adress meil"> <br> <br>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="votre message"></textarea> <br>
-        <input type="submit" value="envoyer">
-
+    <header>
+        <div class="wripper">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo du site">
+                    <h1>KitCV</h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="number">
+                    <p>+243894313444</p>
+                </div>
+            </div>
+    </header>
+        <div class="contener">
+            <section class="contact">
+                <h1 class="title">Contactez nous</h1>
+                <div class="form-image">
+                    <form>
+                        <input type="text" placeholder="Nom">
+                        <input type="text" placeholder="Adresse Mail">
+                        <input type="text" placeholder="Objet du Message">
+                        <textarea  id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
+                        <button class="button-link form_btn">
+                            <a href="#">Envoyer Votre message</a>
+                        </button>
+                    </form>
+                    <div class="image">
+                        <img src="images/profile.jpg" >
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+            <footer>
+                <p>Site réalisé par kit saison | Tous les droits sont réservés.</p>
+            </footer>
 </body>
 </html>
