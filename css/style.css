@@ -76,14 +76,19 @@ a {
     background: linear-gradient(orange,midnightblue);
     border-radius: 60px;
 }
+.number a {
+    color: #fff;
+}
 
 .home {
     padding: 0 5%;
     margin: 50px 0;
+    margin-top: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: calc(100vh - 200px);
+    background-color: #ddd;
 }
 .home .left {
     width: 55%;
@@ -135,6 +140,11 @@ a {
     border-radius: 60px;
     text-transform: uppercase;
     line-height: 1px;
+}
+
+.tabsec{
+    background-color: antiquewhite;
+    padding: 10px 25px;
 }
 
 .tabsec h1 {
@@ -197,7 +207,7 @@ tbody tr:nth-child(even){
     margin-top: 20px;
 }
 .image {
-    width: 60%;
+    width: 55%;
 }
 .image img {
     width: 100%;
